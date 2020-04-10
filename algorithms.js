@@ -212,3 +212,30 @@
 // console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
 
 
+
+//Copy each element of the first array in the second, in order. Insert elements at index n.
+// function frankenSplice(arr1, arr2, n) {
+//   let arr3 = arr2.slice();
+//   arr3.splice(n, 0, ...arr1);
+//   return arr3;
+// }
+// console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
+
+
+
+// Remove all falsy values from an array.
+// function bouncer(arr) {
+//   let newArr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i]) {
+//       newArr.push(arr[i]);
+//     }
+//   }
+//   return newArr;
+// }
+// //OR
+// function bouncer(arr) {
+//   return arr.filter(Boolean);
+// }
+
+// console.log(bouncer([7, "ate", "", false, 9]));
