@@ -197,4 +197,18 @@
 
 
 
+//Return the provided string with the first letter of each word capitalized. 
+// function titleCase(str) {
+//   let splitStr = str.toLowerCase().split(' ');
+//   let array = [];
+//   for (let i = 0; i < splitStr.length; i++) {
+//       array.push(splitStr[i].replace(splitStr[i].charAt(0), splitStr[i].charAt(0).toUpperCase()));
+//     } 
+//     let result = array.join(' ');
+
+//   return result;
+// }
+
+// console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));
+
 
